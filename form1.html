@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <form action="index.html">
+            <div>
+                <label for="cars">Choose a car:</label>
+                    <div>
+                        <input type="radio" name="Fruits" value="apple" id=""> 사과
+                        <input type="radio" name="Fruits" value="banana" id=""> 바나나
+                        <input type="radio" name="Fruits" checked value="strawberry" id=""> 딸기
+                    </div>
+
+            <div>
+                <select name="cars" id="cars">
+                    <option value="hyundai">Hyundai</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div>
+                <label for="cars">Choose a car(multiple) :</label>
+                <select name="cars" id="cars" multiple>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+
+    </div>
+    <div>
+        <button type="submit">Click Me!</button>
+    </div>
+
+            <hr>
+
+    <form action="index.html">
+        <div> 
+            Check First : <input type="checkbox" name="mycheckfirst">
+            Check Second : <input type="checkbox" name="mychecksecond">
+            <label for="idcheckthird">Label Check Third : </label>
+            <input type="checkbox" name="mycheckthird" id="idcheckthird">
+        </div>
+                
+    <div>  <!--dev에게만 보일 수 있도록 하기 위한 hidden-->
+        <form action="index.html">
+            <div> Hidden First : <input type="hidden" name="myhiddenfirst" value=2> </div>
+            <input type="submit">
+        </form>
+    </div>
+        
+                <hr>
+    <div>
+        <form action="index.html">
+            <div> Email : <input type="email" name="email address" value="dhkim@blue.net"> </div>
+            <div> Password : <input type="password" name="my password"> </div>
+            <div> Date : <input type="date" name="date" value="2023-05-16"> </div>
+            <div> Files : <input type="file" name="my file"> </div>
+            <input type="submit">
+        </form>
+    </div>
+        
+                <hr>
+        
+        <div>
+            <form action="main.html">
+                검색 : <input type="text" name="search">
+                <input type="submit">
+            </form>
+        </div>
+        
+                <hr>
+        
+        <div>    <!--데이터는 보이게 하라: 그냥 index.html로 리다이렉트될 수 있도록만-->
+            <div>
+                First Name : <input type="text" name="first">
+            </div>
+            <div>
+                Last Name : <input type="text" name="second">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        
+            <div>
+                <form action="index.html">
+                    <div> First Name : <input type="text" name="first"> </div>
+                    
+                    <div>
+                        Contents
+                    </div>
+
+                    <div>
+                        <textarea name="mycontents" id="" cols="30" rows="10">입력하는 곳입니다</textarea>
+                    </div>
+        
+                            <hr>
+                    <div> First Name : <input type="text" name="first"> </div>
+                    <div>
+                        Contents
+                    </div>
+                    
+                    <div>
+                        <textarea name="mycontents" id="" cols="30" rows="10">입력하는 곳입니다</textarea>
+                    </div>
+                        </form>
+        
+                    </div>
+            </form>
+            </div>
+
+    </div>
+</form>
+</div>
+
+    
+</body>
+</html>
